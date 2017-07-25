@@ -1,6 +1,6 @@
 // +build linux,mips linux,mipsle linux,mips64 linux,mips64le
 
-package main
+package runc
 
 import (
 	"syscall"
