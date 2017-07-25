@@ -1,6 +1,6 @@
 // +build linux
 
-package main
+package runc
 
 import (
 	"github.com/sirupsen/logrus"
