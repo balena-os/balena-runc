@@ -1,4 +1,4 @@
-package main
+package runc
 
 import "fmt"
 import "golang.org/x/sys/unix"
