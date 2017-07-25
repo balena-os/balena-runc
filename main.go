@@ -1,4 +1,4 @@
-package main
+package runc
 
 import (
 	"fmt"
@@ -46,7 +46,7 @@ your host. Providing the bundle directory using "-b" is optional. The default
 value for "bundle" is the current directory.`
 )
 
-func main() {
+func Main() {
 	app := cli.NewApp()
 	app.Name = "runc"
 	app.Usage = usage
